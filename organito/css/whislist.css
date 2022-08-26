@@ -1,0 +1,58 @@
+.whislist {background: linear-gradient(rgba(13, 2, 109, 0.5),rgba(0, 7, 63, 0.5)),url(../images/contact1.jpeg); height: 60vh; background-repeat: no-repeat; background-size: cover; background-position: center; text-align: center;}
+.whislist h2{color: white;padding-top:10%;  font-size: 40px;}
+.whislist a ,span{ text-decoration:  none; color: white ; font-size: 20px; font-weight: 500; padding-left: 10px;}
+/* ----cart-end-- */
+
+#whislist-table .table-box{ padding: 10px 0px; width: 100%; box-shadow: 0px 0px 10px silver; margin-top: 100px;}
+#whislist-table table{table-layout: fixed; width: 100%; text-align: center;  border: none; border-collapse: collapse; } 
+#whislist-table table thead tr td{ font-weight: 600;color: rgb(1, 1, 63);} 
+#whislist-table table  tr td{ padding: 20px; white-space:nowrap;text-align: center; }
+#whislist-table table tr{ border-bottom: 1px solid silver;}
+
+#whislist-table tbody tr td{ font-weight: 500;}
+#whislist-table .table-box tr td img{ width: 100%; }
+#whislist-table .list-box{ text-align: left; display: inline-block; font-weight: 500;}
+
+#whislist-table table .brand-name{ margin: 5px 0px;}
+#whislist-table table .number-of-item{ display: flex;}
+
+
+#whislist-table .number-of-item input{ width: 50%; text-align: center; font-weight: 600; outline: 0; border: none; padding: 5px; background: none; border: solid 1px silver}
+#whislist-table table .bin,.btn1{padding: 8px 10px; border: none; background-color: #414141; color: white; border-radius: 2px;}
+#whislist-table table .btn1{ background-color: #fd7e14;}
+#whislist-table table .bin i{ font-size: 20px;}
+#whislist-table table .btn1 i{ font-size: 20px;}
+#whislist-table .bin:hover{ background-color:#20c997 ; }
+@media(max-width: 992px)
+{
+    #whislist-table .table-box{ width: 1000px;}
+
+}
+/* -----tobody-end--- */
+.footer{background-color: #1E272E; margin-top: 60px; padding: 70px 0px;}
+.footer .footer-info{ color: rgb(153, 153, 153); padding-top:20px ; line-height: 35px; font-weight: 500;}
+.footer .footer-icon i{ color: white; padding: 18px; font-size: 15px; border: 1px solid white; border-radius: 100%; }
+.footer .footer-icon i:first-child{ width:53px; text-align: center;}
+.footer .company-text{ color: white;font-size: 25px; font-weight: 600;}
+.footer .company{ padding-left: 40px;}
+.footer .company ul{list-style: none; padding: 0px; }
+.footer .company ul li{ margin: 15px 0px;}
+.footer .company a{ color:silver; text-decoration: none;}
+
+.footer .contact ul{list-style: none; padding-left: 0px; }
+.footer .contact ul li i{ padding-left: 10px;}
+.footer .contact ul li{ margin: 15px 0px; color: silver;}
+.footer .contact a{ color:silver; text-decoration: none;}
+
+.footer .newsletter .letter-text{ color:silver;padding: 20px 0px; font-weight: 500;}
+.footer .email-box{ padding-top: 10px;}
+.footer .email-box input{ position: relative; width: 90%; padding: 10px; padding-right: 50px; outline: 0;}
+.footer .email-box i{ color: #05C46B; font-size: 25px;}
+.footer .email-box i{ position: absolute; top:48%; right: 20%;}
+/* ----footer-end---- */
+.copyright
+{ background-color: #1a2d3bfd; padding: 20px;}
+.copyright .copyright-text span{ color: #05C46B; }
+.copyright .copyright-text{ color: white;}
+.copyright .policy span{ color: #05C46B;}
+.copyright .policy{ color: white;}

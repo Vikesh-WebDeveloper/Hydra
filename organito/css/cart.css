@@ -1,0 +1,72 @@
+.cart{ background: linear-gradient(rgba(13, 2, 109, 0.5),rgba(0, 7, 63, 0.5)),url(../images/contact1.jpeg); height: 60vh; background-repeat: no-repeat; background-size: cover; background-position: center; text-align: center; max-width: 100%;}
+.cart h2{color: white;padding-top:10%;  font-size: 40px;}
+.cart a ,span{ text-decoration:  none; color: white ; font-size: 20px; font-weight: 500; padding-left: 10px;}
+/* ----cart-end-- */
+
+#cart-table .table-box{ padding: 10px 0px; width: 100%; box-shadow: 0px 0px 10px silver; margin-top: 100px;}
+#cart-table table{table-layout: fixed; width: 100%; text-align: center;  border: none; border-collapse: collapse; } 
+#cart-table table thead tr td{ font-weight: 600;color: rgb(1, 1, 63);} 
+#cart-table #cart-table table  tr td{ padding: 20px; white-space:nowrap;text-align: center; }
+#cart-table table tr{ border-bottom: 1px solid silver;}
+#cart-table tbody tr td{ font-weight: 500;}
+#cart-table .table-box tr td img{ width: 100%; }
+#cart-table .list-box{ text-align: left; display: inline-block; font-weight: 500;}
+
+#cart-table table .brand-name{ margin: 5px 0px;}
+#cart-table table .number-of-item{ display: flex;}
+
+#cart-table .number-of-item input{ width: 50%; text-align: center; font-weight: 600; outline: 0; border: none; padding: 5px; background: none; border: solid 1px silver}
+#cart-table .bin{padding: 8px 10px; border: none; background-color: black; color: white; border-radius: 2px;}
+#cart-table .bin:hover{ background-color:green; }
+@media(max-width:992px)
+{
+    .table-box{width: 1000px;}
+
+}
+/* tabel-box-end */
+#cart-table .button-2{ margin: 30px 0px; text-align: end; padding: 0px 20px; border-bottom: 1px solid    silver;}
+#cart-table .button-2 .btn1{ border: none; outline: 0; background-color: #05C46B; color: white; border-radius: 30px; padding: 12px 35px;}
+#cart-table .button-2 .btn2{ border: none; outline: 0; background-color: #1E272E; color: white; border-radius: 30px ; padding: 12px 25px; margin-left: 10px; margin-bottom: 30px;}
+#cart-table .button-2 .btn2:hover{ background-color: #05C46B;}
+/* button-end */
+#cart-table .total-product{ display: flex; justify-content: space-between; padding: 0px 25px;}
+#cart-table .total-product:last-child{ border-bottom: 1px solid silver;}
+#cart-table .left-text .text{ padding: 10px 0px; font-weight: 500;}
+#cart-table .left-text  .total-price{ color: #05C46B; font-weight: 600; padding-top: 20px;}
+
+#cart-table .right-text .price{ padding: 10px 0px; text-align: right; font-weight: 500;}
+#cart-table .right-text .amount{ color: #05C46B; font-weight: 600; padding: 20px 0px;}
+#cart-table .proceed{padding: 10px 25px; text-align: end; }
+#cart-table .proceed .btn3 { border: none;outline: 0; color: white; background-color: #05C46B; border-radius: 30px; padding: 10px 20px; font-size: 12px; font-weight: 600;}
+/* total-product-end */
+
+.footer{background-color: #1E272E; margin-top: 60px; padding: 70px 0px;}
+.footer .footer-info{ color: rgb(153, 153, 153); padding-top:20px ; line-height: 35px; font-weight: 500;}
+.footer .footer-icon i{ color: white; padding: 18px; font-size: 15px; border: 1px solid white; border-radius: 100%; }
+.footer .footer-icon i:first-child{ width:53px; text-align: center;}
+.footer .company-text{ color: white;font-size: 25px; font-weight: 600;}
+.footer .company{ padding-left: 40px;}
+.footer .company ul{list-style: none; padding: 0px; }
+.footer .company ul li{ margin: 15px 0px;}
+.footer .company a{ color:silver; text-decoration: none;}
+
+.footer .contact ul{list-style: none; padding-left: 0px; }
+.footer .contact ul li i{ padding-left: 10px;}
+.footer .contact ul li{ margin: 15px 0px; color: silver;}
+.footer .contact a{ color:silver; text-decoration: none;}
+
+.footer .newsletter .letter-text{ color:silver;padding: 20px 0px; font-weight: 500;}
+.footer .email-box{ padding-top: 10px;}
+.footer .email-box input{ position: relative; width: 90%; padding: 10px; padding-right: 50px; outline: 0;}
+.footer .email-box i{ color: #05C46B; font-size: 25px;}
+.footer .email-box i{ position: absolute; top:48%; right: 20%;}
+/* ----footer-end---- */
+.copyright
+{ background-color: #1a2d3bfd; padding: 20px;}
+.copyright .copyright-text span{ color: #05C46B; }
+.copyright .copyright-text{ color: white;}
+.copyright .policy span{ color: #05C46B;}
+.copyright .policy{ color: white;}
+
+
+
